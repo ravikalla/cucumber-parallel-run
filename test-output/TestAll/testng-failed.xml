@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [TestAll]" parallel="tests">
+  <test name="Window1(failed)" parallel="tests">
+    <classes>
+      <class name="runner.TestNGRun1">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- runner.TestNGRun1 -->
+      <class name="runner.TestNGRun2">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- runner.TestNGRun2 -->
+    </classes>
+  </test> <!-- Window1(failed) -->
+  <test name="Window2(failed)" parallel="tests">
+    <classes>
+      <class name="runner.TestNGRun1">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- runner.TestNGRun1 -->
+      <class name="runner.TestNGRun2">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- runner.TestNGRun2 -->
+    </classes>
+  </test> <!-- Window2(failed) -->
+</suite> <!-- Failed suite [TestAll] -->
