@@ -18,7 +18,7 @@
   		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-server</artifactId>
-			<version>3.1.0</version>
+			<version>3.2.0</version>
 		</dependency>
  		
 		<!-- Below Dependency for TestNG -->
@@ -39,13 +39,13 @@
 		<dependency>
     		<groupId>io.appium</groupId>
     		<artifactId>java-client</artifactId>
-    		<version>4.1.2</version>
+    		<version>5.0.0</version>
 		</dependency>	
 		
 		<dependency>
     		<groupId>com.google.guava</groupId>
     		<artifactId>guava</artifactId>
-    		<version>22.0</version>
+    		<version>r03</version>
 		</dependency>
 		
 		 <!-- https://mvnrepository.com/artifact/info.cukes/cucumber-junit -->
