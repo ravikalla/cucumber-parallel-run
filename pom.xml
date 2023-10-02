@@ -18,14 +18,14 @@
   		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-server</artifactId>
-			<version>3.1.0</version>
+			<version>3.2.0</version>
 		</dependency>
  		
 		<!-- Below Dependency for TestNG -->
 		<dependency>
 			<groupId>info.cukes</groupId>
 			<artifactId>cucumber-testng</artifactId>
-			<version>1.2.5</version>
+			<version>1.2.6</version>
 		</dependency>
 	
 		<dependency>
@@ -39,7 +39,7 @@
 		<dependency>
     		<groupId>io.appium</groupId>
     		<artifactId>java-client</artifactId>
-    		<version>4.1.2</version>
+    		<version>8.0.0</version>
 		</dependency>	
 		
 		<dependency>
